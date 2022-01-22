@@ -46,17 +46,8 @@ const styles = makeStyles((theme) => ({
   //     },
   //   },
   appBar: {
-    backgroundColor: "#fff",
-    color: "#019cde",
-  },
-  appBarSM: {
-    backgroundColor: "#fff",
-    color: "#019cde",
-    minHeight: "15vh",
-  },
-  cover: {
-    width: 590,
-    height: 575,
+    backgroundColor: "#ff94c2",
+    color: "#fff",
   },
 }));
 
