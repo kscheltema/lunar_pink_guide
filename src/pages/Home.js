@@ -1,12 +1,14 @@
 import MainHeader from "../ui/MainHeader";
+// import styles from "../ui/theme";
 
 function Home() {
+  // const classes = styles();
   return (
-    <div className="App">
-      <header className="The-Pink-Guide-header">
-        <MainHeader />
-        <p>blah</p>
-      </header>
+    <div
+    // className={classes.root}
+    >
+      <MainHeader />
+      <p>blah</p>
     </div>
   );
 }

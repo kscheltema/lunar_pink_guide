@@ -1,12 +1,10 @@
-import { AppBar, Container, Grid, Toolbar } from "@material-ui/core";
+import { AppBar, Grid, Toolbar } from "@material-ui/core";
 import styles from "../ui/theme";
 
 function MainHeader() {
   const classes = styles();
   return (
-    <header
-    // className={classes.headerContainer}
-    >
+    <header>
       <AppBar position="static" variant="contained" color="primary">
         {/* <Container maxWidth="xl"> */}
         {/* <Grid container md={12} justify="center" direction="row"> */}

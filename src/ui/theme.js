@@ -6,9 +6,6 @@ const styles = makeStyles((theme) => ({
   //   title: {
   //     padding: "2em",
   //   },
-  //   rootCard: {
-  //     display: "flex",
-  //   },
   //   rootMedium: {
   //     flexGrow: 1,
   //     paddingTop: "1rem",
@@ -45,6 +42,9 @@ const styles = makeStyles((theme) => ({
   //       textDecoration: "underline",
   //     },
   //   },
+  // root: {
+  //   flexGrow: 1,
+  // },
   appBar: {
     backgroundColor: "#ff94c2",
     color: "#fff",
