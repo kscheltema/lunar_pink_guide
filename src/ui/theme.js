@@ -4,12 +4,12 @@ export const theme = createTheme();
 
 const styles = makeStyles((theme) => ({
   buttonAppBar: {
-    backgroundColor: "#ff94c2",
+    backgroundColor: "#ba2d65",
     color: "#fff",
     "&:hover": {
-      boxShadow: "3px 3px 3px #ba2d65",
-      backgroundColor: "#ff94c2",
-      textDecoration: "underline",
+      boxShadow: "1px 1px 1px #ba2d65",
+      backgroundColor: "#ba2d65",
+      textDecoration: "none",
     },
   },
   appBar: {

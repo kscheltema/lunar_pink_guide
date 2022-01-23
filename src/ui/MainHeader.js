@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { AppBar, Button, Grid, Toolbar } from "@material-ui/core";
+import { AppBar, Button, Grid, Toolbar, Typography } from "@material-ui/core";
 import styles from "../ui/theme";
 
 function MainHeader() {
@@ -17,7 +17,9 @@ function MainHeader() {
               to="home"
               name="the pink guide"
             >
-              the pink guide
+              <Typography variant="h6">
+                <strong>the pink guide</strong>
+              </Typography>
             </Button>
           </Grid>
         </Toolbar>
