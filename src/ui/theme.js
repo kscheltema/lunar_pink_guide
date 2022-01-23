@@ -7,7 +7,7 @@ const styles = makeStyles((theme) => ({
     backgroundColor: "#ba2d65",
     color: "#fff",
     "&:hover": {
-      boxShadow: "1px 1px 1px #ba2d65",
+      boxShadow: "0.25rem 0.25rem 0.25rem #ba2d65",
       backgroundColor: "#ba2d65",
       textDecoration: "none",
     },

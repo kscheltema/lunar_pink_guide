@@ -7,8 +7,6 @@ function MainHeader() {
   return (
     <header className="App-header">
       <AppBar position="static" variant="contained" color="primary">
-        {/* <Container maxWidth="xl"> */}
-        {/* <Grid container md={12} justify="center" direction="row"> */}
         <Toolbar className={classes.appBar}>
           <Grid container justifyContent="space-between">
             <Button
@@ -17,14 +15,10 @@ function MainHeader() {
               to="home"
               name="the pink guide"
             >
-              <Typography variant="h6">
-                <strong>the pink guide</strong>
-              </Typography>
+              <Typography variant="h7">the pink guide</Typography>
             </Button>
           </Grid>
         </Toolbar>
-        {/* </Grid> */}
-        {/* </Container> */}
       </AppBar>
     </header>
   );
