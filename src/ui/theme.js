@@ -27,6 +27,10 @@ const styles = makeStyles((theme) => ({
   cardContent: {
     flex: "1 0 auto",
   },
+  cardText: {
+    flex: "1 0 auto",
+    width: "30em",
+  },
   imageContainerHero: {
     position: "relative",
     textAlign: "center",
