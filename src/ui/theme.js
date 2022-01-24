@@ -7,6 +7,11 @@ const styles = makeStyles((theme) => ({
     backgroundColor: "#ff94c2",
     color: "#fff",
   },
+  blogList: {
+    listStyle: "none",
+    margin: 0,
+    padding: 0,
+  },
   buttonAppBar: {
     backgroundColor: "#ba2d65",
     margin: "0.4rem",
@@ -17,7 +22,7 @@ const styles = makeStyles((theme) => ({
       textDecoration: "none",
     },
   },
-  cardHome: {
+  cardPage: {
     display: "flex",
   },
   cardBox: {
@@ -25,6 +30,16 @@ const styles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   cardContent: {
+    flex: "1 0 auto",
+  },
+  cardPictureText: {
+    flex: "1 0 auto",
+    width: "45em",
+  },
+  cardFullText: {
+    flex: "1 0 auto",
+  },
+  cardPostContainer: {
     flex: "1 0 auto",
   },
   cardText: {

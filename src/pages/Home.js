@@ -13,7 +13,7 @@ function Home() {
         <img src={hero} alt="same sex wedding female" />
         <div className={classes.imageTextHero}>Top Left</div>
       </div>
-      <Card className={classes.cardHome}>
+      <Card className={classes.cardPage}>
         <Box className={classes.cardBox}>
           <CardContent className={classes.cardContent}>
             <Typography component="div" variant="h5">
