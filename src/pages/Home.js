@@ -1,12 +1,5 @@
 import MainHeader from "../ui/MainHeader";
-import {
-  Box,
-  Button,
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@material-ui/core";
+import { Box, Button, Card, CardContent, Typography } from "@material-ui/core";
 import hero from "../assets/same_sex_wedding_female.png";
 import styles from "../ui/theme";
 
@@ -16,7 +9,10 @@ function Home() {
   return (
     <section>
       <MainHeader />
-      <img src={hero} alt="same sex wedding female" />
+      <div className={classes.imageContainerHero}>
+        <img src={hero} alt="same sex wedding female" />
+        <div className={classes.imageTextHero}>Top Left</div>
+      </div>
       <Card className={classes.cardHome}>
         <Box className={classes.cardBox}>
           <CardContent className={classes.cardContent}>
@@ -139,9 +135,9 @@ function Home() {
               className={classes.buttonAppBar}
               // LinkComponent={NavLink}
               // to="home"
-              name="invites"
+              name="invitations"
             >
-              <Typography variant="subtitle2">invites</Typography>
+              <Typography variant="subtitle2">invitations</Typography>
             </Button>
             <Button
               className={classes.buttonAppBar}
@@ -165,6 +161,7 @@ function Home() {
             </Button>
           </CardContent>
         </Box>
+        <Box></Box>
       </Card>
     </section>
   );
