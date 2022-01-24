@@ -22,8 +22,10 @@ const styles = makeStyles((theme) => ({
       textDecoration: "none",
     },
   },
-  cardPage: {
-    display: "flex",
+
+  cardBlogText: {
+    flex: "1 0 auto",
+    width: "45em",
   },
   cardBox: {
     display: "flex",
@@ -32,15 +34,14 @@ const styles = makeStyles((theme) => ({
   cardContent: {
     flex: "1 0 auto",
   },
-  cardPictureText: {
-    flex: "1 0 auto",
-    width: "45em",
+  cardPage: {
+    display: "flex",
   },
-  cardFullText: {
-    flex: "1 0 auto",
-  },
-  cardPostContainer: {
-    flex: "1 0 auto",
+  cardTextBox: {
+    display: "flex",
+    flexDirection: "column",
+    marginRight: "1.5rem",
+    marginLeft: "1.5rem",
   },
   cardText: {
     flex: "1 0 auto",
