@@ -12,7 +12,7 @@ function MainHeader() {
             <Button
               className={classes.buttonAppBar}
               LinkComponent={NavLink}
-              to="home"
+              href="/home"
               name="the pink guide"
             >
               <Typography variant="h7">the pink guide</Typography>
