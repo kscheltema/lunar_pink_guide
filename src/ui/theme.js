@@ -3,8 +3,13 @@ import { createTheme, makeStyles } from "@material-ui/core/styles";
 export const theme = createTheme();
 
 const styles = makeStyles((theme) => ({
+  appBar: {
+    backgroundColor: "#ff94c2",
+    color: "#fff",
+  },
   buttonAppBar: {
     backgroundColor: "#ba2d65",
+    margin: "0.4rem",
     color: "#fff",
     "&:hover": {
       boxShadow: "0.25rem 0.25rem 0.25rem #ba2d65",
@@ -12,9 +17,15 @@ const styles = makeStyles((theme) => ({
       textDecoration: "none",
     },
   },
-  appBar: {
-    backgroundColor: "#ff94c2",
-    color: "#fff",
+  cardHome: {
+    display: "flex",
+  },
+  cardBox: {
+    display: "flex",
+    flexDirection: "column",
+  },
+  cardContent: {
+    flex: "1 0 auto",
   },
 }));
 
