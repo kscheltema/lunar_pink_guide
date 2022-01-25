@@ -10,6 +10,7 @@ function ListPost(props) {
           key={post.id}
           id={post.id}
           image={post.image}
+          imageTitle={post.imageTitle}
           title={post.title}
           paragraph1={post.paragraph1}
           paragraph2={post.paragraph2}

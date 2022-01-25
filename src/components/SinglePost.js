@@ -9,7 +9,7 @@ function SinglePost(props) {
         <Grid container spacing={1}>
           <Box className={classes.cardBox}>
             <CardContent className={classes.cardText}>
-              <img src={props.image} alt={props.title} />
+              <img src={props.image} alt={props.imageTitle} />
             </CardContent>
           </Box>
           <Box className={classes.cardBox}>
