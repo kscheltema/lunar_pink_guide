@@ -1,21 +1,21 @@
 import { NavLink } from "react-router-dom";
-import { AppBar, Button, Grid, Toolbar, Typography } from "@material-ui/core";
+import { AppBar, Button, Grid, Toolbar } from "@material-ui/core";
 import styles from "../ui/theme";
 
 function MainHeader() {
   const classes = styles();
   return (
     <header className="App-header">
-      <AppBar position="static" variant="contained" color="primary">
+      <AppBar position="static" color="primary">
         <Toolbar className={classes.appBar}>
           <Grid container justifyContent="space-between">
             <Button
               className={classes.buttonAppBar}
-              LinkComponent={NavLink}
+              linkcomponent={NavLink}
               href="/home"
               name="the pink guide"
             >
-              <Typography variant="h7">the pink guide</Typography>
+              the pink guide
             </Button>
           </Grid>
         </Toolbar>

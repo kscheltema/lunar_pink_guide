@@ -1,7 +1,6 @@
-import SinglePost from "../components/SinglePost";
+import ListPost from "../components/ListPost";
 import blog from "../assets/same_sex_blog.png";
 import MainHeader from "../ui/MainHeader";
-import styles from "../ui/theme";
 
 const DUMMY_DATA = [
   {
@@ -18,25 +17,10 @@ const DUMMY_DATA = [
 ];
 
 function Blog() {
-  const classes = styles();
   return (
     <article>
       <MainHeader />
-      <div>
-        <ul className={classes.blogList}>
-          {DUMMY_DATA.map((post) => (
-            <SinglePost
-              key={post.id}
-              id={post.id}
-              image={post.image}
-              title={post.title}
-              paragraph1={post.paragraph1}
-              paragraph2={post.paragraph2}
-              remaining={post.remaining}
-            />
-          ))}
-        </ul>
-      </div>
+      <ListPost posts={DUMMY_DATA} />
     </article>
   );
 }
