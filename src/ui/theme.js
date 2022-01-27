@@ -47,6 +47,20 @@ const styles = makeStyles((theme) => ({
     flex: "1 0 auto",
     width: "30em",
   },
+  drawer: {
+    width: 240,
+    flexShrink: 0,
+    "& .MuiDrawer-paper": {
+      width: 240,
+      boxSizing: "border-box",
+    },
+  },
+  drawerBox: {
+    display: "flex",
+    marginTop: "1rem",
+    marginLeft: "2rem",
+    marginRight: "2rem",
+  },
   imageContainerHero: {
     position: "relative",
     textAlign: "center",
