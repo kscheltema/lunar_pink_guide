@@ -6,7 +6,11 @@ function MainHeader() {
   const classes = styles();
   return (
     <header className="App-header">
-      <AppBar position="static" color="primary">
+      <AppBar
+        position="absolute"
+        color="primary"
+        className={classes.drawerAppBar}
+      >
         <Toolbar className={classes.appBar}>
           <Grid container justifyContent="space-between">
             <Button
