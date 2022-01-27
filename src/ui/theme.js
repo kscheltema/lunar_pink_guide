@@ -55,16 +55,13 @@ const styles = makeStyles((theme) => ({
       boxSizing: "border-box",
     },
   },
-  drawerAppBar: {
-    zIndex: 2,
-  },
-  drawerBox: {
+  drawerClassifiedsBox: {
     position: "relative",
     zIndex: 1,
     display: "flex",
-    marginTop: "1rem",
-    marginLeft: "2rem",
-    marginRight: "2rem",
+    marginTop: "1.25rem",
+    marginLeft: "0rem",
+    marginLRight: "0rem",
   },
   imageContainerHero: {
     position: "relative",

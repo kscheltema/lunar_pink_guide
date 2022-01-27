@@ -1,6 +1,6 @@
 import MainHeader from "../ui/MainHeader";
 import { Box, Button, Card, CardContent, Typography } from "@material-ui/core";
-import SumPost from "../components/SumPost";
+import ListPost from "../components/ListPost";
 import hero from "../assets/same_sex_wedding_female.png";
 import styles from "../ui/theme";
 
@@ -119,7 +119,7 @@ function Home() {
           </CardContent>
         </Box>
         <Box className={classes.cardBox}>
-          <SumPost posts={DUMMY_DATA} />
+          <ListPost posts={DUMMY_DATA} />
         </Box>
       </Card>
     </section>
