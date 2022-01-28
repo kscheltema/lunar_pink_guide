@@ -1,6 +1,8 @@
 import { Box, Card, CardContent, Grid, Typography } from "@material-ui/core";
 import styles from "../ui/theme";
 
+//use Paper instead of Card
+
 function SingleClassified(props) {
   const classes = styles();
   return (

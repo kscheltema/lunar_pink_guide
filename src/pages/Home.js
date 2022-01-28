@@ -1,5 +1,5 @@
 import MainHeader from "../ui/MainHeader";
-import { Box, Button, Card, CardContent, Typography } from "@material-ui/core";
+import { Button, Grid, Paper, Typography } from "@material-ui/core";
 import ListPost from "../components/ListPost";
 import hero from "../assets/same_sex_wedding_female.png";
 import styles from "../ui/theme";
@@ -21,18 +21,15 @@ function Home() {
       <MainHeader />
       <div className={classes.imageContainerHero}>
         <img src={hero} alt="same sex wedding female" />
-        <div className={classes.imageTextHero}>Top Left</div>
+        {/* <div className={classes.imageTextHero}>Top Left</div> not working */}
       </div>
-      <Card className={classes.cardPage}>
-        <Box className={classes.cardBox}>
-          <CardContent className={classes.cardContent}>
-            <Typography component="div" variant="h5">
-              Categories
-            </Typography>
+      <Grid container spacing={1}>
+        <Grid item xs={4} flexDirection="column" justifyContent="center">
+          <Paper className={classes.paperContainer}>
+            <Typography variant="h5">Categories</Typography>
             <Button className={classes.buttonAppBar} name="engagement venues">
               <Typography variant="subtitle2">engagement venues</Typography>
             </Button>
-
             <Button className={classes.buttonAppBar} name="wedding venues">
               <Typography variant="subtitle2">wedding venues</Typography>
             </Button>
@@ -42,7 +39,6 @@ function Home() {
             <Button className={classes.buttonAppBar} name="wedding insurance">
               <Typography variant="subtitle2">wedding insurance</Typography>
             </Button>
-
             <Button
               className={classes.buttonAppBar}
               name="wedding pros: planner"
@@ -116,12 +112,14 @@ function Home() {
                 honeymoon destinations
               </Typography>
             </Button>
-          </CardContent>
-        </Box>
-        <Box className={classes.cardBox}>
-          <ListPost posts={DUMMY_DATA} />
-        </Box>
-      </Card>
+          </Paper>
+        </Grid>
+        <Grid item xs={8} justifyContent="center">
+          <Paper className={classes.paperContainer}>
+            <ListPost posts={DUMMY_DATA} />
+          </Paper>
+        </Grid>
+      </Grid>
     </section>
   );
 }

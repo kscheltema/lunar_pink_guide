@@ -17,7 +17,7 @@ function Classifieds() {
   return (
     <article>
       <MainHeader />
-      <ClassifiedsDrawer />
+      {/* <ClassifiedsDrawer /> follow the accordian */}
       <ListClassified posts={DUMMY_DATA} />
     </article>
   );

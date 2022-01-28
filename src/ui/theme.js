@@ -22,7 +22,6 @@ const styles = makeStyles((theme) => ({
       textDecoration: "none",
     },
   },
-
   cardBlogText: {
     flex: "1 0 auto",
     width: "45em",
@@ -55,14 +54,14 @@ const styles = makeStyles((theme) => ({
       boxSizing: "border-box",
     },
   },
-  drawerClassifiedsBox: {
-    position: "relative",
-    zIndex: 1,
-    display: "flex",
-    marginTop: "1.25rem",
-    marginLeft: "0rem",
-    marginLRight: "0rem",
-  },
+  // drawerClassifiedsBox: {
+  //   position: "relative",
+  //   zIndex: 1,
+  //   display: "flex",
+  //   marginTop: "1.25rem",
+  //   marginLeft: "0rem",
+  //   marginLRight: "0rem",
+  // },
   imageContainerHero: {
     position: "relative",
     textAlign: "center",
@@ -71,6 +70,11 @@ const styles = makeStyles((theme) => ({
     position: "absolute",
     top: "8px",
     left: "16px",
+  },
+  paperContainer: {
+    padding: theme.spacing(1),
+    margin: theme.spacing(1),
+    maxWidth: "66%",
   },
 }));
 
